@@ -1,3 +1,8 @@
+html {
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+
 body {
     font-family: "Helvetica Neue",
     Arial,
@@ -6,10 +11,12 @@ body {
     "BIZ UDPGothic",
     Meiryo,
     sans-serif;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
 }
 
 .header-logo {
-    width: calc(50px + 10dvh);
+    width: calc(50px + 10lvh);
 }
 
 .top {
@@ -17,9 +24,9 @@ body {
     align-items: center;
     text-align: center;
     flex-direction: column;
-    top: calc(10dvh);
-    height: 80dvh;
-    margin-bottom: 10dvh;
+    top: 10lvh;
+    height: 80lvh;
+    margin-bottom: 10lvh;
     justify-content: space-evenly;
     position: relative;
     width: 100%;
@@ -27,7 +34,7 @@ body {
 
 .slogan-wrapper {
     position: relative;
-    top: 0.8dvh;
+    top: 0.8lvh;
 }
 
 .slogan {
@@ -233,7 +240,7 @@ body {
 .scroll {
     position: absolute;
     right: 50%;
-    top: calc(100dvh - 70px);;
+    top: calc(100lvh - 70px);;
     writing-mode: vertical-rl;
 }
 
@@ -274,7 +281,7 @@ body {
 }
 
 .event-detail {
-    margin-top: 30dvh;
+    margin-top: 30lvh;
 }
 
 .event-detail .title {
