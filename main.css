@@ -280,9 +280,7 @@ body {
 .event-detail .title {
     font-family: "RocknRoll One", sans-serif;
 }
-.event-detail .subsubtitle {
-    font-family: "RocknRoll One", sans-serif;
-}
+
 .event-detail .marker {
     background: linear-gradient(to top, #fffc93 0% 45%, transparent 0);
     background-repeat: no-repeat;
