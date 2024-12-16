@@ -230,11 +230,8 @@ body {
     animation-delay: 2.0s;
 }
 
-.btn {
-  font-family: "RocknRoll One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 120%;
+.button-custom {
+  white-space: nowrap;
 }
 
 .scroll {
